@@ -24,3 +24,5 @@ package-lock.json
 
 # OS temp files
 *.tmp
+
+.vercel
