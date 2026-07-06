@@ -256,7 +256,7 @@ async function loadSample(url) {
 
 async function loadAllSamples() {
   initAudio();
-  const basePath = 'lovebird_clips/';
+  const basePath = '/lovebird_clips/';
   let loaded = 0;
   const total = TRACKS.reduce((sum, t) => sum + t.samples.length, 0);
 
