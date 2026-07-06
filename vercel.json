@@ -1,26 +1,3 @@
 {
-  "version": 2,
-  "public": true,
-  "buildCommand": "",
-  "outputDirectory": ".",
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "cache-control",
-          "value": "public, max-age=3600"
-        }
-      ]
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(?!.*\\.).*",
-      "methods": ["GET"],
-      "dest": "/index.html"
-    }
-  ]
+  "version": 2
 }
