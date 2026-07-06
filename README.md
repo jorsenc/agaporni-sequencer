@@ -2,7 +2,7 @@
 
 Una aplicación web interactiva para crear y secuenciar sonidos de loros agapornis (inseparables). Una herramienta lúdica y musical para explorar los cantos naturales de estas aves.
 
-**[🎵 Abre la aplicación aquí](https://agaporni-sequencer.vercel.app)** | [Versión con muestras de audio real](https://agaporni-sequencer.vercel.app/agaporni-sequencer-samples.html)
+**[🎵 Abre la app en VERCEL aquí](https://agaporni-sequencer.vercel.app)** | [Versión con muestras de audio real]
 
 ## ¿Qué es?
 
