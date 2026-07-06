@@ -3,14 +3,24 @@
   "public": true,
   "buildCommand": "",
   "outputDirectory": ".",
-  "rewrites": [
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
     {
-      "source": "/",
-      "destination": "/index.html"
-    },
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "cache-control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ],
+  "routes": [
     {
-      "source": "/:path*",
-      "destination": "/:path*"
+      "src": "/(?!.*\\.).*",
+      "methods": ["GET"],
+      "dest": "/index.html"
     }
   ]
 }
